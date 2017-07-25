@@ -52,7 +52,7 @@ function render () {
 
   // append html to the view
   $booksList.append(booksHtml);
-};
+}
 
 function handleSuccess(json) {
   allBooks = json;
